@@ -25,9 +25,9 @@ angular.module("assessment",["ui.router"])
         .state('shop', {
             url: '/shop',
             templateUrl: 'views/shop.html',
-             controller: function($scope,mainService){
-              $scope.data=mainService.getData;
-            }
+            //  controller: function($scope,mainService){
+            //   $scope.data=mainService.getData;
+            // }
         });
 
 

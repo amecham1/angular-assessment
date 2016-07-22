@@ -3,6 +3,6 @@ angular.module("assessment")
 
 function mainCtrl($scope,mainService) {
 
-$scope.data=mainService.getData();
+// $scope.data=mainService.getData();
 
 }//end of controller
